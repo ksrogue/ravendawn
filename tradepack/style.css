@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+
+    background-color: black;
+    background-image: url(assets/Pages-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    margin-top: 30px;
+    padding: 16px;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.main h2 {
+    margin: 8px;
+}
+.main input {
+    outline: none;
+
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+button {
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+    width: 125px;
+    height: 30px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
