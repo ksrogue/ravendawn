@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "roboto";
 }
 
 body {
@@ -39,11 +42,19 @@ body {
 .main h2 {
     margin: 8px;
 }
+select {
+    height: 22px;
+    font-family: "roboto";
+    font-weight: bold;
+}
 .main input {
     outline: none;
 
     margin-left: 5px;
     font-size: 16px;
+}
+.demand input {
+    width: 50px;
 }
 
 button {
