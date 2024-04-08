@@ -253,7 +253,7 @@ function calculo() {
     }
   } else {
     valueTxt.style.color = "red";
-    valueTxt.innerHTML = "Por favor, insira um valor entre 1 e 300";
+    valueTxt.innerHTML = "Por favor, insira uma demanda válida.";
   }
 
   console.log(finalValue, distance);
