@@ -240,16 +240,16 @@ function calculo() {
 
     if (bonusCheck.checked && warmode.checked) {
       valueTxt.style.color = "white";
-      valueTxt.innerHTML = Math.floor(finalValue * 1.25);
+      valueTxt.innerHTML = Math.floor(finalValue * 1.25) * 2;
     } else if (bonusCheck.checked) {
       valueTxt.style.color = "white";
-      valueTxt.innerHTML = Math.floor(finalValue * 1.15);
+      valueTxt.innerHTML = Math.floor(finalValue * 1.15) * 2;
     } else if (warmode.checked) {
       valueTxt.style.color = "white";
-      valueTxt.innerHTML = Math.floor(finalValue * 1.1);
+      valueTxt.innerHTML = Math.floor(finalValue * 1.1) * 2;
     } else {
       valueTxt.style.color = "white";
-      valueTxt.innerHTML = Math.floor(finalValue);
+      valueTxt.innerHTML = Math.floor(finalValue) * 2;
     }
   } else {
     valueTxt.style.color = "red";
